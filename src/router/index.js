@@ -8,8 +8,8 @@ Vue.use(Router)
 // 这里删除了原来的 routes 常量
 
 const router =  new Router({
-  // mode: 'hash',
-  mode: 'history',
+  mode: 'hash',
+  // mode: 'history',
   linkExactActiveClass: 'active',
   // 指定滚动行为
   scrollBehavior(to, from, savedPosition) {
